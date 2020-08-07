@@ -1,0 +1,91 @@
+html{
+  height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#projects{
+    background-color: rgb(106, 106, 255);
+    height: 100%;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    overflow-y: auto;
+
+}
+
+.project{
+    padding: .75em;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-align: center;
+    background-color: rgb(163, 162, 236);
+}
+
+#todos{
+    background-color: #9898ff;
+    height: 100%;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    overflow-y: auto;
+}
+
+.todo{
+    padding: .75em;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-align: center;
+    background-color: rgb(198, 197, 255);
+}
+
+.add{
+    width: 3em;
+    height: 3em;
+    align-self: center;
+    margin: .75em;
+}
+
+#details{
+    padding-top: 3em;
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.inputDiv{
+    display: block;
+    margin: 2em auto;
+    
+}
+
