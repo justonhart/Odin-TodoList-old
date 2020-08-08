@@ -1,0 +1,1 @@
+import {switchDetailsToView} from "./DomManipulator.js";
