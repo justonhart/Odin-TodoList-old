@@ -40,6 +40,7 @@ body{
     border-top: none;
     text-align: center;
     background-color: rgb(163, 162, 236);
+    user-select: none;
 }
 
 #todos{
@@ -68,6 +69,7 @@ body{
     border-top: none;
     text-align: center;
     background-color: rgb(198, 197, 255);
+    user-select: none;
 }
 
 .add{
@@ -83,7 +85,7 @@ body{
     text-align: center;
 }
 
-.inputDiv{
+.detailsDiv{
     display: block;
     margin: 2em auto;
     
